@@ -15,6 +15,10 @@ type Table struct {
 	ct ctypes.Table
 }
 
+func (t *Table) GetCT() ctypes.Table {
+	return t.ct
+}
+
 func (t *Table) unmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	return t.ct.UnmarshalXML(d, start)
 }
