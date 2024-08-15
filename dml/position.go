@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"errors"
 
-	"github.com/gomutex/godocx/dml/dmlst"
+	"github.com/vocata/godocx/dml/dmlst"
 )
 
 type PoistionH struct {

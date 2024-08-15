@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"strconv"
 
-	"github.com/gomutex/godocx/wml/stypes"
+	"github.com/vocata/godocx/wml/stypes"
 )
 
 type CellProperty struct {

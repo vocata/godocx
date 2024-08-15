@@ -3,8 +3,8 @@ package docx
 import (
 	"encoding/xml"
 
-	"github.com/gomutex/godocx/internal"
-	"github.com/gomutex/godocx/wml/stypes"
+	"github.com/vocata/godocx/internal"
+	"github.com/vocata/godocx/wml/stypes"
 )
 
 var docAttrs = map[string]string{

@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"strconv"
 
-	"github.com/gomutex/godocx/wml/stypes"
+	"github.com/vocata/godocx/wml/stypes"
 )
 
 // Spacing Between Lines and Above/Below Paragraph

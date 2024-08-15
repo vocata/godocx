@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gomutex/godocx/common/constants"
-	"github.com/gomutex/godocx/common/units"
-	"github.com/gomutex/godocx/dml"
-	"github.com/gomutex/godocx/internal"
+	"github.com/vocata/godocx/common/constants"
+	"github.com/vocata/godocx/common/units"
+	"github.com/vocata/godocx/dml"
+	"github.com/vocata/godocx/internal"
 )
 
 type PicMeta struct {

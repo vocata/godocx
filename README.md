@@ -1,6 +1,6 @@
 # Godocx
 
-[![Go CI](https://github.com/gomutex/godocx/actions/workflows/go.yml/badge.svg)](https://github.com/gomutex/godocx/actions/workflows/go.yml) ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gomutex/godocx) [![Go Reference](https://pkg.go.dev/badge/github.com/gomutex/godocx.svg)](https://pkg.go.dev/github.com/gomutex/godocx)
+[![Go CI](https://github.com/vocata/godocx/actions/workflows/go.yml/badge.svg)](https://github.com/vocata/godocx/actions/workflows/go.yml) ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gomutex/godocx) [![Go Reference](https://pkg.go.dev/badge/github.com/gomutex/godocx.svg)](https://pkg.go.dev/github.com/gomutex/godocx)
  [![Go Report Card](https://goreportcard.com/badge/github.com/gomutex/godocx)](https://goreportcard.com/report/github.com/gomutex/godocx) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -20,25 +20,25 @@ Here's a simple example of how you can use Godocx to create and modify DOCX docu
 ## Installation
 Use the godocx in your project
 ```bash
-go get github.com/gomutex/godocx
+go get github.com/vocata/godocx
 ```
 
 
 ### Examples
 Explore additional examples and use cases over at GitHub repository dedicated to showcasing the capabilities of Golang Docx:
-https://github.com/gomutex/godocx-examples
+https://github.com/vocata/godocx-examples
 
 
 ```go
 // More examples in separate repository
-// https://github.com/gomutex/godocx-examples
+// https://github.com/vocata/godocx-examples
 
 package main
 
 import (
 	"log"
 
-	"github.com/gomutex/godocx"
+	"github.com/vocata/godocx"
 )
 
 func main() {
@@ -92,7 +92,7 @@ func main() {
 
 This is screenshot of demo document generated from the godocx library. 
 
-![Screenshot of the demo output](https://github.com/gomutex/godocx-examples/raw/main/demo.png)
+![Screenshot of the demo output](https://github.com/vocata/godocx-examples/raw/main/demo.png)
 
 ## Inspiration
 The Godocx library is inspired from the python-docx

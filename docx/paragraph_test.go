@@ -3,9 +3,9 @@ package docx
 import (
 	"testing"
 
-	"github.com/gomutex/godocx/wml/ctypes"
-	"github.com/gomutex/godocx/wml/stypes"
 	"github.com/stretchr/testify/assert"
+	"github.com/vocata/godocx/wml/ctypes"
+	"github.com/vocata/godocx/wml/stypes"
 )
 
 func assertParaText(t *testing.T, para *Paragraph, expected string) {

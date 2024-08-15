@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gomutex/godocx/dml/dmlct"
-	"github.com/gomutex/godocx/dml/dmlst"
-	"github.com/gomutex/godocx/internal"
+	"github.com/vocata/godocx/dml/dmlct"
+	"github.com/vocata/godocx/dml/dmlst"
+	"github.com/vocata/godocx/internal"
 )
 
 func TestWrapSquare_MarshalXML(t *testing.T) {

@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gomutex/godocx/common/units"
-	"github.com/gomutex/godocx/dml"
-	"github.com/gomutex/godocx/dml/dmlct"
-	"github.com/gomutex/godocx/dml/dmlpic"
-	"github.com/gomutex/godocx/wml/ctypes"
-	"github.com/gomutex/godocx/wml/stypes"
+	"github.com/vocata/godocx/common/units"
+	"github.com/vocata/godocx/dml"
+	"github.com/vocata/godocx/dml/dmlct"
+	"github.com/vocata/godocx/dml/dmlpic"
+	"github.com/vocata/godocx/wml/ctypes"
+	"github.com/vocata/godocx/wml/stypes"
 )
 
 // Paragraph represents a paragraph in a DOCX document.
